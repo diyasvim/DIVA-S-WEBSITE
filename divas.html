@@ -1,0 +1,2345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Diva's Resort & Spa rooms, dining, spa, and guest experiences.">
+  <title>Diva's Resort &amp; Spa</title>
+  <style>
+    :root { color-scheme: light; --green: #174c3c; --cream: #f3ead8; --gold: #c49a52; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--cream); color: var(--green); font-family: Arial, sans-serif; }
+    .site-header { background: var(--green); color: white; text-align: center; padding: 18px 20px 12px; }
+    .brand { display: inline-block; color: #e2a5da; font: 38px Georgia, serif; text-decoration: none; letter-spacing: .08em; }
+    .tagline { margin: 2px 0 16px; font-size: 13px; letter-spacing: .14em; }
+    .primary-nav { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px 20px; }
+    .primary-nav a, .menu-links a { color: white; text-decoration: none; padding: 8px; }
+    .primary-nav a:hover, .primary-nav a:focus-visible { color: #f6c85f; }
+    .directory { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px 24px; padding: 10px; background: #245c4b; }
+    .directory details { position: relative; }
+    .directory summary { cursor: pointer; color: white; padding: 6px; }
+    .menu-links { display: grid; min-width: 220px; position: absolute; z-index: 5; top: 100%; left: 0; background: var(--green); box-shadow: 0 8px 20px #0003; }
+    .menu-links a:hover, .menu-links a:focus-visible { background: #2b6653; }
+    main { min-height: 60vh; }
+    .page-frame { display: none; }
+    .page-frame.active { display: block; }
+    .page-frame iframe { display: block; width: 100%; min-height: 70vh; border: 0; }
+    .site-footer { padding: 18px; text-align: center; background: #fffdf8; border-top: 1px solid #d6cbb8; }
+    .site-footer a { color: var(--green); }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #f6c85f; outline-offset: 3px; }
+    @media (max-width: 600px) {
+      .site-header { padding: 14px 10px; }
+      .brand { font-size: 32px; }
+      .primary-nav { gap: 4px 8px; }
+      .primary-nav a { padding: 7px 5px; font-size: 14px; }
+      .directory { gap: 4px 12px; }
+      .menu-links { left: 50%; transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#divas-index">DIVA'S</a>
+    <p class="tagline">RESORT &amp; SPA</p>
+    <nav class="primary-nav" aria-label="Main navigation"><a href="#divas-index">Home</a><a href="#divas-rooms">Rooms</a><a href="#divas-dining">Dining</a><a href="#divas-food">Food &amp; Drink</a><a href="#divas-spa">Spa</a><a href="#divas-gallery">Gallery</a><a href="#divas-contact">Contact</a><a href="#divas-staybooking">Book Now</a></nav>
+  </header>
+  <nav class="directory" aria-label="All website pages"><details><summary>Rooms &amp; stays</summary><div class="menu-links"><a href="#divas-rooms">Rooms</a><a href="#divas-treeroom">Glass Tree House Suite</a><a href="#divas-ownersroom">Owners Suite</a><a href="#divas-premiumroom">Premium Deluxe Room</a><a href="#divas-gardenroom">Garden View Room</a><a href="#divas-staybooking">Stay Booking</a><a href="#divas-booking">Stay &amp; Spa Booking</a></div></details><details><summary>Dining</summary><div class="menu-links"><a href="#divas-dining">Dining Overview</a><a href="#divas-arches">Arches</a><a href="#divas-privatedining">Private Dining</a><a href="#divas-familydining">Family Dining</a><a href="#divas-friendsdining">Friends Dining</a><a href="#divas-diningbook">Dining Booking</a></div></details><details><summary>Explore</summary><div class="menu-links"><a href="#divas-food">Food &amp; Drink</a><a href="#divas-order">Food Order</a><a href="#divas-spa">Spa</a><a href="#divas-spabooking">Spa Booking</a><a href="#divas-gallery">Gallery</a><a href="#divas-contact">Contact</a></div></details></nav>
+  <main id="main-content" aria-live="polite">
+<section class="page-frame" id="divas-arches" data-page="divas-arches"><iframe title="Arches" loading="eager" srcdoc="
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Arches&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&quot; alt=&quot;Restaurant dining&quot;&gt;
+
+
+    &lt;h1&gt;Arches&lt;/h1&gt;
+    &lt;h2&gt;From Our Soil to Your Table&lt;/h2&gt;
+
+&lt;p&gt;Around the lush grounds of Amanzi sits Arches, our restaurant in Pawna Lake, which brings the farm directly to your table. Surrounded by the tranquil beauty of Pawna, our restaurant offers a thoughtfully curated dining experience with generous buffet spreads, warm, attentive service, and flavours guests consistently remember long after they leave. Every ingredient is grown organically at our resort, lending each dish a freshness and finesse that no menu description can quite do justice to. From relaxed breakfasts to indulgent lunches and comforting dinners, dining at Amanzi is effortless, refined, and deeply rooted in hospitality. Pull up a chair, take in the verdant landscape, and let the food do what good food always does: make the moment worth remembering.&lt;/p&gt;
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-diningbook&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-booking" data-page="divas-booking"><iframe title="Stay &amp; Spa Booking" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Stay &amp; Spa Booking&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+
+&lt;style&gt;
+  .booking {
+    background: #f3ead8;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+    color: #174c3c;
+  }
+
+  .booking input,
+  .booking select,
+  .booking textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+&lt;/style&gt;
+
+&lt;section class=&quot;booking&quot; id=&quot;booking&quot;&gt;
+  &lt;h2&gt;BOOK YOUR STAY &amp;amp; SPA&lt;/h2&gt;
+
+  &lt;form&gt;
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Enter your name&quot;&gt;
+
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Enter your email&quot;&gt;
+
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot;&gt;
+
+    &lt;label&gt;Room&lt;/label&gt;
+    &lt;select&gt;
+      &lt;option&gt;Select a room&lt;/option&gt;
+      &lt;option&gt;Glass Tree House Suite&lt;/option&gt;
+      &lt;option&gt;Owners Suite&lt;/option&gt;
+      &lt;option&gt;Premium Deluxe Room&lt;/option&gt;
+      &lt;option&gt;Garden View Room&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Check-in date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Check-out date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Spa service&lt;/label&gt;
+    &lt;select&gt;
+      &lt;option&gt;No spa service&lt;/option&gt;
+      &lt;option&gt;Spa treatment&lt;/option&gt;
+      &lt;option&gt;Facial treatment&lt;/option&gt;
+      &lt;option&gt;Massage&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Spa date and time&lt;/label&gt;
+    &lt;input type=&quot;datetime-local&quot;&gt;
+
+    &lt;label&gt;Special requests&lt;/label&gt;
+    &lt;textarea placeholder=&quot;Write your request&quot;&gt;&lt;/textarea&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;SEND BOOKING REQUEST&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/section&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-contact" data-page="divas-contact"><iframe title="Contact Us" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Contact Us&lt;/title&gt;&lt;/head&gt;&lt;body&gt;contact.html
+
+&lt;style&gt;
+  section {
+    background: #f3ead8;
+    padding: 40px 5%;
+    color: #174c3c;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: Georgia, serif;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 18px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  button {
+    margin: 25px;
+    padding: 14px 45px;
+    color: #174c3c;
+    background: #f3ead8;
+    border: 1px solid #174c3c;
+  }
+
+  .details {
+    background: #fffdf8;
+    padding: 20px;
+  }
+&lt;/style&gt;
+
+&lt;section id=&quot;contact&quot;&gt;
+  &lt;h2&gt;CONTACT US&lt;/h2&gt;
+
+  &lt;form&gt;
+    &lt;h2&gt;TELL US HOW WE CAN HELP&lt;/h2&gt;
+
+    &lt;label for=&quot;name&quot;&gt;Name*&lt;/label&gt;
+    &lt;input id=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;Enter your name&quot; required&gt;
+
+    &lt;label for=&quot;email&quot;&gt;Email*&lt;/label&gt;
+    &lt;input id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;Enter your email&quot; required&gt;
+
+    &lt;label for=&quot;phone&quot;&gt;Phone*&lt;/label&gt;
+    &lt;input id=&quot;phone&quot; type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot; required&gt;
+
+    &lt;label for=&quot;query&quot;&gt;Query&lt;/label&gt;
+    &lt;textarea id=&quot;query&quot; placeholder=&quot;Enter your query&quot;&gt;&lt;/textarea&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;SUBMIT&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;div class=&quot;details&quot;&gt;
+    &lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt; Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; hello@divasresort.example&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Reservation Number:&lt;/strong&gt; +91 98765 43210&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;WhatsApp:&lt;/strong&gt; +91 98765 43210&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-dining" data-page="divas-dining"><iframe title="Dining" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Dining&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+&lt;style&gt;
+  .dining {
+    background: #f3ead8;
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  .dining h2 {
+    color: #174c3c;
+    font: 40px Georgia, serif;
+  }
+
+  .dining p {
+    color: #625b50;
+    line-height: 1.8;
+    margin: 15px auto 50px;
+    max-width: 1000px;
+  }
+
+  .dining-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .dining-card {
+    width: 45%;
+  }
+
+  .dining-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .dining-info {
+    background: #fffdf8;
+    padding: 25px;
+  }
+
+  .dining-info h3 {
+    color: #174c3c;
+    font: 30px Georgia, serif;
+  }
+
+  .dining-info a {
+    display: inline-block;
+    color: #174c3c;
+    border: 1px solid #174c3c;
+    padding: 12px 30px;
+    text-decoration: none;
+  }
+
+  .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+
+  .footer div {
+    width: 30%;
+  }
+
+  
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+
+
+
+
+
+
+&lt;/style&gt;
+
+&lt;section class=&quot;dining&quot; id=&quot;dining&quot;&gt;
+  &lt;h2&gt;DINE YOUR WAY, IN EVERY SENSE&lt;/h2&gt;
+
+  &lt;p&gt;
+    Enjoy delicious food in beautiful surroundings. Choose an open-air meal
+    at Arches or a quiet private dinner for a special evening.
+  &lt;/p&gt;
+
+  &lt;div class=&quot;dining-cards&quot;&gt;
+    &lt;div class=&quot;dining-card&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&quot; alt=&quot;Restaurant dining&quot;&gt;
+      &lt;div class=&quot;dining-info&quot;&gt;
+        &lt;h3&gt;ARCHES&lt;/h3&gt;
+        &lt;p&gt;Enjoy fresh food, open skies, and a relaxed dining experience.&lt;/p&gt;
+        &lt;a href=&quot;#divas-arches&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;dining-card&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000&quot; alt=&quot;Private dining area&quot;&gt;
+      &lt;div class=&quot;dining-info&quot;&gt;
+        &lt;h3&gt;PRIVATE DINING&lt;/h3&gt;
+        &lt;p&gt;Share a quiet, special meal with family or someone you love.&lt;/p&gt;
+        &lt;a href=&quot;#divas-privatedining&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+
+&lt;div class=&quot;dining-card&quot;&gt;
+      &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnM3GIUFzeg6g-RJmUL3t51H1ZGkRNdMBMHJC5ZOrkzQ&amp;s=10&quot; alt=&quot;family dining area&quot;&gt;
+      &lt;div class=&quot;dining-info&quot;&gt;
+        &lt;h3&gt;FAMILY DINING&lt;/h3&gt;
+        &lt;p&gt;&quot;Investing in moments, not things, with the people who matter most.&quot;&lt;/p&gt;
+        &lt;a href=&quot;#divas-familydining&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+
+&lt;div class=&quot;dining-card&quot;&gt;
+      &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpg6pJBVGjf7OJJ80lBIdL7qGT5A2X3Y_N21T70YQaLA&amp;s=10&quot; 
+alt=&quot;family dining area&quot;&gt;
+      &lt;div class=&quot;dining-info&quot;&gt;
+        &lt;h3&gt;FRIENDS DINING&lt;/h3&gt;
+        &lt;p&gt;&quot;Life was meant for good friends and unforgettable adventures.&quot;&lt;/p&gt;
+        &lt;a href=&quot;#divas-friendsdining&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+
+  &lt;/div&gt;
+&lt;/section&gt;
+  &lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa&lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-diningbook" data-page="divas-diningbook"><iframe title="Book Dining" loading="eager" srcdoc="
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Book Dining&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    form {
+      background: #fffdf8;
+      max-width: 500px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      border: 0;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;h1&gt;BOOK DINING&lt;/h1&gt;
+
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Enter your name&quot; required&gt;
+
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Enter your email&quot; required&gt;
+
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot; required&gt;
+
+    &lt;label&gt;Choose dining area&lt;/label&gt;
+    &lt;select required&gt;
+      &lt;option value=&quot;&quot;&gt;Select dining area&lt;/option&gt;
+      &lt;option&gt;Arches&lt;/option&gt;
+      &lt;option&gt;Private Dining Area&lt;/option&gt;
+      &lt;option&gt;Family Dining&lt;/option&gt;
+      &lt;option&gt;Friends Dining&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Date&lt;/label&gt;
+    &lt;input type=&quot;date&quot; required&gt;
+
+    &lt;label&gt;Time&lt;/label&gt;
+    &lt;input type=&quot;time&quot; required&gt;
+
+    &lt;label&gt;Number of guests&lt;/label&gt;
+    &lt;input type=&quot;number&quot; min=&quot;1&quot; placeholder=&quot;Enter number of guests&quot; required&gt;
+
+    &lt;label&gt;Special request&lt;/label&gt;
+    &lt;textarea placeholder=&quot;Write your request&quot;&gt;&lt;/textarea&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;REQUEST A TABLE&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-familydining" data-page="divas-familydining"><iframe title="Family Dining" loading="eager" srcdoc="
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Family Dining &lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+      &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnM3GIUFzeg6g-RJmUL3t51H1ZGkRNdMBMHJC5ZOrkzQ&amp;s=10&quot; alt=&quot;family dining area&quot;&gt;
+
+    &lt;h1&gt;Family Dining&lt;/h1&gt;
+    
+&lt;p&gt; Share a relaxed meal with the whole family in a warm and welcoming setting. Family Dining is a lovely place to enjoy good food, spend time together, and make special memories. Whether its a casual lunch or a family celebration, gather around the table and enjoy the moment.&lt;/p&gt;
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-diningbook&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-food" data-page="divas-food"><iframe title="Food &amp; Drink" loading="eager" srcdoc="
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Diva&#39;s Food &amp;amp; Drinks&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      margin: 0;
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+    }
+
+  
+    .page-head {
+      background: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    .page-head h1 {
+      font-family: Georgia, serif;
+      font-size: 40px;
+    }
+
+    /* Teen cards ko arrange karta hai */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 35px 15px;
+    }
+
+    /* flip size */
+    .card {
+      width: 400px;
+      height: 350px;
+      perspective: 1000px;
+    }
+
+    /* Card ke dono sides ko ghumata hai */
+    .inside {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transition: 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .inside {
+      transform: rotateY(180deg);
+    }
+
+  
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      backface-visibility: hidden;
+    }
+
+    
+    .front {
+      background: #fffdf8;
+      text-align: center;
+    }
+
+    .front img {
+      width: 100%;
+      height: 290px;
+      object-fit: cover;
+    }
+
+    .front h3 {
+      font-family: Georgia, serif;
+    }
+
+    
+    .back {
+      background: #174c3c;
+      color: white;
+      transform: rotateY(180deg);
+      padding: 25px;
+      border: 6px solid #fffdf8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .back h3 {
+      color: #c49a52;
+      font-family: Georgia, serif;
+    }
+
+    .back p {
+      line-height: 1.6;
+    }
+
+    /* Order button  */
+    .back a {
+      margin-top: auto;
+      margin-bottom: 10px;
+      background: #c49a52;
+      color: #174c3c;
+      padding: 12px 20px;
+      text-decoration: none;
+    }
+
+  .footer {
+    background: #fffdf8;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .footer div {
+    width: 30%;
+  }
+
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+  &lt;header class=&quot;page-head&quot;&gt;
+    &lt;h1&gt;FOOD &amp;amp; DRINKS&lt;/h1&gt;
+    &lt;p&gt;Enjoy delicious food and refreshing drinks at Diva&#39;s Resort.&lt;/p&gt;
+  &lt;/header&gt;
+
+  &lt;div class=&quot;cards&quot;&gt;
+
+
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;inside&quot;&gt;
+        &lt;div class=&quot;front&quot;&gt;
+          &lt;img src=&quot;https://wpcontents.weddingpark.net/image/hall/1fc7/thumb640x480/GGJaHXa48xaLSJ54iJRRVOBodIpRUY1q.jpg?format=webp&quot;
+               alt=&quot;Elegant gourmet dish&quot;&gt;
+          &lt;h3&gt;CHEF&#39;S SPECIAL&lt;/h3&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;back&quot;&gt;
+          &lt;h3&gt;CHEF&#39;S SPECIAL&lt;/h3&gt;
+          &lt;p&gt;
+            Enjoy a beautifully presented dish in a relaxed resort setting.
+            Ask our team about today&#39;s menu and choices.
+          &lt;/p&gt;
+          &lt;a href=&quot;#divas-order&quot; target=&quot;_top&quot;&gt;ORDER NOW&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;inside&quot;&gt;
+        &lt;div class=&quot;front&quot;&gt;
+          &lt;img src=&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&quot;
+               alt=&quot;Fine dining plate&quot;&gt;
+          &lt;h3&gt;FINE DINING&lt;/h3&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;back&quot;&gt;
+          &lt;h3&gt;FINE DINING&lt;/h3&gt;
+          &lt;p&gt;
+            Enjoy a thoughtfully prepared meal in beautiful surroundings.
+            Contact our team for menu details.
+          &lt;/p&gt;
+          &lt;a href=&quot;#divas-order&quot; target=&quot;_top&quot;&gt;ORDER NOW&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;inside&quot;&gt;
+        &lt;div class=&quot;front&quot;&gt;
+          &lt;img src=&quot;https://images.unsplash.com/photo-1547592180-85f173990554?w=900&quot;
+               alt=&quot;Freshly prepared food&quot;&gt;
+          &lt;h3&gt;SIGNATURE DISH&lt;/h3&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;back&quot;&gt;
+          &lt;h3&gt;SIGNATURE DISH&lt;/h3&gt;
+          &lt;p&gt;
+            Make your meal memorable with one of our featured dishes.
+            Ask us about available options.
+          &lt;/p&gt;
+          &lt;a href=&quot;#divas-order&quot; target=&quot;_top&quot;&gt;ORDER NOW&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa&lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-friendsdining" data-page="divas-friendsdining"><iframe title="Friends Dining" loading="eager" srcdoc="
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Friends Dining &lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+      &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpg6pJBVGjf7OJJ80lBIdL7qGT5A2X3Y_N21T70YQaLA&amp;s=10&quot; 
+&quot; alt=&quot;family dining area&quot;&gt;
+
+
+    &lt;h1&gt;Family Dining&lt;/h1&gt;
+   &lt;p&gt;&gt; Bring your friends together for a relaxed meal filled with good food, lively conversations, and plenty of laughter. Friends Dining is a welcoming place to celebrate a birthday, catch up after a long time, or enjoy an evening together just because. Share your favourite dishes, tell stories, and make new memories around the table. Whether your group is planning a special celebration or a casual get-together, enjoy the time at your own pace and make the occasion memorable.&lt;/p&gt; 
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-diningbook&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-gallery" data-page="divas-gallery"><iframe title="Gallery" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Gallery&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+&lt;style&gt;
+  .gallery {
+    background: #f3ead8;
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .gallery h2 {
+    color: #174c3c;
+    font: 40px Georgia, serif;
+  }
+
+  .gallery p {
+    color: #625b50;
+    margin: 30px 0;
+  }
+
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .gallery-images img {
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+  }
+    .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+
+  .footer div {
+    width: 30%;
+  }
+
+  
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+
+
+&lt;/style&gt;
+
+&lt;section class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
+  &lt;h2&gt;GALLERY&lt;/h2&gt;
+  &lt;p&gt;All Photos; A Glimpse into Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+
+  &lt;div class=&quot;gallery-images&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&quot; alt=&quot;Resort swimming pool&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&quot; alt=&quot;Tropical resort&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&quot; alt=&quot;Hotel exterior&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&quot; alt=&quot;Hotel bedroom&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&quot; alt=&quot;Luxury hotel room&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&quot; alt=&quot;Restaurant dining area&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&quot; alt=&quot;Hotel restaurant&quot;&gt;
+    &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAs4Vi7rml8Uoa9rBdeD0Wg028LCh0EmEm1W44BLA3MBm8dq5JLc6J6uo&amp;s=10&quot; alt=&quot;Spa interior&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&quot; alt=&quot;Outdoor celebration&quot;&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+  &lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa &lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-gardenroom" data-page="divas-gardenroom"><iframe title="Garden View Room" loading="eager" srcdoc="
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Garden View Room&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=900&quot; alt=&quot;Garden view room&quot;&gt;
+
+    &lt;h1&gt;Garden View Room&lt;/h1&gt;
+
+&lt;p&gt;Part of a magnificent Garden Villa spanning nearly 5,000 sq. ft., this 250 sq. ft. retreat is adorned with exquisite furnishings that bring a sense of quiet luxury to every corner. A queen size bed anchors the space, while the garden view beyond offers a living, breathing backdrop that shifts gently with the light and the season. Designed for 2 adults, this is one of the best places to stay near Pawna Lake for those who appreciate the finer details of a well-appointed space. Simple in its footprint yet generous in its character, this retreat has a way of delivering far more than its size ever suggests.
+
+
+&lt;/p&gt;
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-staybooking&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-index" data-page="divas-index"><iframe title="Home" loading="eager" srcdoc="
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Diva&#39;s Resort &amp;amp; Spa&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      margin:0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hotel-name {
+      color: #d568ce;
+      font-family: Georgia, serif;
+      font-size: 38px;
+      margin: 0;
+    }
+
+    .hotel-subtitle {
+      font-size: 13px;
+      margin: 5px 0 20px;
+    }
+
+    nav {
+      padding: 15px;
+      background-color:#FFF0FA  ;
+    }
+
+    nav a {
+      color:#C2188B;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .book-button {
+      position:absolute;
+      right:20px;
+      top: 20px;
+      background-color: #F6C85F;
+      color: #4A0A52;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+    .image-slider {
+      height: 450px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-slider img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      position: absolute;
+
+      opacity: 0;
+      animation: change-image 12s infinite;
+      border-top: 5px solid  white;
+    }
+
+    .image-slider img:nth-child(1) { animation-delay: 0s; }
+    .image-slider img:nth-child(2) { animation-delay: 4s; }
+    .image-slider img:nth-child(3) { animation-delay: 8s; }
+
+    @keyframes change-image {
+      0% { opacity: 0; }
+      8% { opacity: 1; }
+      30% { opacity: 1; }
+      38% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    
+    .section {
+      background: #f3ead8;
+      padding: 35px 20px;
+      text-align: center;
+      color: #174c3c;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fffdf8;
+      width: 30%;
+      padding-bottom: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      font-family: Georgia, serif;
+    }
+
+    .card p {
+      color: #625b50;
+      line-height: 1.6;
+    }
+
+    
+    .about {
+      background: #f3ead8;
+      padding: 55px 20px;
+      text-align: center;
+        border-top: 20px solid white;
+
+    }
+
+    .about h2 {
+      color: #173f35;
+      font-family: Georgia, serif;
+      font-size: 32px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: 15px auto;
+      line-height: 1.8;
+      color: #51463a;
+    }
+
+
+  body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+  }
+
+
+
+  .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+
+  .footer div {
+    width: 30%;
+  }
+
+  
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;header&gt;
+    &lt;a class=&quot;book-button&quot; href=&quot;#divas-staybooking&quot; target=&quot;_top&quot;&gt;Book Now&lt;/a&gt;
+
+    &lt;h1 class=&quot;hotel-name&quot;&gt;DIVA&#39;S&lt;/h1&gt;
+    &lt;p class=&quot;hotel-subtitle&quot;&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+
+    &lt;nav&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+       &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa&lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+    
+    &lt;/nav&gt;
+  &lt;/header&gt;
+
+  
+  &lt;section class=&quot;image-slider&quot; id=&quot;home&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&amp;fit=crop&amp;w=1600&amp;q=85&quot; alt=&quot;Resort swimming pool&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&amp;fit=crop&amp;w=1600&amp;q=85&quot; alt=&quot;Tropical resort&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=1600&amp;q=85&quot; alt=&quot;Hotel exterior&quot;&gt;
+  &lt;/section&gt;
+
+  
+  &lt;section class=&quot;section&quot;&gt;
+    &lt;h1&gt;THINGS TO DO&lt;/h1&gt;
+
+    &lt;div class=&quot;cards&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=800&quot; alt=&quot;Kayaking on a lake&quot;&gt;
+        &lt;h2&gt;PAWNA LAKE&lt;/h2&gt;
+        &lt;p&gt;A serene reservoir | 2 km&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7?w=800&quot; alt=&quot;Paragliding&quot;&gt;
+        &lt;h2&gt;PARAGLIDING&lt;/h2&gt;
+        &lt;p&gt;An aerial escape | 3 km&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&quot; alt=&quot;Outdoor adventure&quot;&gt;
+        &lt;h2&gt;WATER ADVENTURE&lt;/h2&gt;
+        &lt;p&gt;Outdoor thrills | 4 km&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  
+  &lt;section class=&quot;section&quot;&gt;
+    &lt;h1&gt;WHAT OUR GUESTS SAY&lt;/h1&gt;
+
+    &lt;div class=&quot;cards&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h2&gt;A LOVELY CELEBRATION&lt;/h2&gt;
+        &lt;p&gt;“We had a wonderful stay and enjoyed the peaceful surroundings.”&lt;/p&gt;
+        &lt;p&gt;⭐⭐⭐⭐⭐&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h2&gt;A PEACEFUL ESCAPE&lt;/h2&gt;
+        &lt;p&gt;“The rooms were comfortable and the team was very welcoming.”&lt;/p&gt;
+        &lt;p&gt;⭐⭐⭐⭐⭐&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h2&gt;A MEMORABLE STAY&lt;/h2&gt;
+        &lt;p&gt;“Beautiful views, delicious food, and a relaxing atmosphere.”&lt;/p&gt;
+        &lt;p&gt;⭐⭐⭐⭐⭐&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  
+  &lt;section class=&quot;section&quot;&gt;
+    &lt;h1&gt;STAY IN &amp;amp; STILL HAVE THE TIME OF YOUR LIFE&lt;/h1&gt;
+
+    &lt;div class=&quot;cards&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKyUnG8lvWjXChqfQ16tjy5ERT-P-oGJA3yHyKiZwKw&amp;s=10&quot; alt=&quot;Outdoor resort game&quot;&gt;
+        &lt;h2&gt;GAMES&lt;/h2&gt;
+        &lt;p&gt;Enjoy fun activities with friends and family.&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&quot; alt=&quot;Hotel lounge&quot;&gt;
+        &lt;h2&gt;RELAX&lt;/h2&gt;
+        &lt;p&gt;Find a quiet spot and enjoy some peaceful time.&lt;/p&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;img src=&quot;https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&quot; alt=&quot;Spa room&quot;&gt;
+        &lt;h2&gt;SPA&lt;/h2&gt;
+        &lt;p&gt;Unwind with a calming spa experience.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;about&quot; id=&quot;about&quot;&gt;
+    &lt;h2&gt;Diva&#39;s, a Luxury Escape Near Indore&lt;/h2&gt;
+
+    &lt;p&gt;
+      Welcome to Diva&#39;s Resort &amp;amp; Spa, a peaceful getaway near Indore.
+      Enjoy comfortable rooms, delicious food, beautiful surroundings, and
+      warm hospitality during your stay.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      Relax by the pool, celebrate a special occasion, or enjoy a soothing
+      spa experience. We make every visit comfortable, refreshing, and special.
+    &lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa &lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-order" data-page="divas-order"><iframe title="Order Food" loading="eager" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Food Order&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .foods {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .food {
+      width: 280px;
+      background: #fffdf8;
+      padding: 15px;
+    }
+
+    .food img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .food a {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;h1&gt;ORDER FOOD&lt;/h1&gt;
+
+  &lt;div class=&quot;foods&quot;&gt;
+
+    &lt;div class=&quot;food&quot;&gt;
+      &lt;img src=&quot;https://wpcontents.weddingpark.net/image/hall/1fc7/thumb640x480/GGJaHXa48xaLSJ54iJRRVOBodIpRUY1q.jpg?format=webp&quot;
+           alt=&quot;Chef&#39;s special&quot;&gt;
+      &lt;h2&gt;CHEF&#39;S SPECIAL&lt;/h2&gt;
+      &lt;p&gt;Price: ₹450&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;PAY NOW&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;food&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&quot;
+           alt=&quot;Fine dining dish&quot;&gt;
+      &lt;h2&gt;FINE DINING&lt;/h2&gt;
+      &lt;p&gt;Price: ₹550&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;PAY NOW&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;food&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1547592180-85f173990554?w=900&quot;
+           alt=&quot;Signature dish&quot;&gt;
+      &lt;h2&gt;SIGNATURE DISH&lt;/h2&gt;
+      &lt;p&gt;Price: ₹500&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;PAY NOW&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-ownersroom" data-page="divas-ownersroom"><iframe title="Owners Suite" loading="eager" srcdoc="
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Owners Suite&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+     &lt;img src=&quot;https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&quot; alt=&quot;Private resort suite&quot;&gt;
+    
+
+    &lt;h1&gt;Owners Suite&lt;/h1&gt;
+
+    &lt;p&gt;The crown of Diva&#39;s, this 1,500 sq. ft. suite is where luxury finds its most natural expression, and where every detail has been considered for a stay that is as indulgent as it is serene. At its heart sits a stunning sunken stone bathtub, a centrepiece that sets the tone for an experience unlike any other suite in Lonavala. Beyond the suite, a private garden and forest area of 2,500 sq. ft. unfolds, alongside a dedicated 250 sq. ft. gazebo and an exclusive 800 sq. ft. plunge pool at a depth of 4 feet. With a king size bed, this suite is designed for 4 guests, offering flexible sleeping arrangements that ensure every guest finds their perfect retreat.&lt;/p&gt;
+
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-staybooking&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-premiumroom" data-page="divas-premiumroom"><iframe title="Premium Deluxe Room" loading="eager" srcdoc="
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Premium Deluxe Room&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1590490360182-c33d57733427?w=900&quot; alt=&quot;Premium deluxe room&quot;&gt;
+
+    &lt;h1&gt;Premium Deluxe Room&lt;/h1&gt;
+
+    &lt;p&gt;The crown of Diva&#39;s, this 1,500 sq. ft. suite is where luxury finds its most natural expression, and where every detail has been considered for a stay that is as indulgent as it is serene. At its heart sits a stunning sunken stone bathtub, a centrepiece that sets the tone for an experience unlike any other suite in Lonavala. Beyond the suite, a private garden and forest area of 2,500 sq. ft. unfolds, alongside a dedicated 250 sq. ft. gazebo and an exclusive 800 sq. ft. plunge pool at a depth of 4 feet. With a king size bed, this suite is designed for 4 guests, offering flexible sleeping arrangements that ensure every guest finds their perfect retreat.&lt;/p&gt;
+
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-staybooking&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-privatedining" data-page="divas-privatedining"><iframe title="Private Dining" loading="eager" srcdoc="
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;
+  &lt;title&gt;Private Dining Area&lt;/title&gt;
+
+  &lt;style&gt;
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 25px;
+    }
+
+    .room-info {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf8;
+      padding: 25px;
+    }
+
+    .room-info img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .room-info h1 {
+      text-align: center;
+    }
+    .room-info h2{
+        text-align: center;
+    }
+    .room-info p {
+      line-height: 1.7;
+    }
+
+    .button-area {
+      text-align: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class=&quot;room-info&quot;&gt;
+      &lt;img src=&quot;https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000&quot; alt=&quot;Private dining area&quot;&gt;
+
+
+    &lt;h1&gt;Private Dining Area&lt;/h1&gt;
+
+
+&lt;p&gt; Enjoy a peaceful dining experience in a private setting, created for special moments with family or someone you love. Take your time over a delicious meal, share stories, and celebrate together away from the usual bustle. Whether you are marking an anniversary, celebrating a birthday, or simply planning a memorable evening, Private Dining offers a warm and relaxed atmosphere for your occasion. Reserve your table and make your time together extra special.&lt;/p&gt;
+    &lt;div class=&quot;button-area&quot;&gt;
+      &lt;a class=&quot;book-button&quot; href=&quot;#divas-diningbook&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-rooms" data-page="divas-rooms"><iframe title="Rooms" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Rooms&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+&lt;style&gt;
+  .page-head {
+      background: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    .page-head h1 {
+      font-family: Georgia, serif;
+      font-size: 40px;
+    }
+
+
+  .rooms {
+    background: #f3ead8;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .room {
+    width: 45%;
+    text-align: center;
+  }
+
+  .room img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+
+  .room-info {
+    background: #fffdf8;
+    padding: 25px;
+  }
+
+  .room h2 {
+    color: #174c3c;
+    font-family: Georgia, serif;
+  }
+
+  .room p {
+    color: #625b50;
+    line-height: 1.7;
+  }
+
+  .room a {
+    display: inline-block;
+    color: #174c3c;
+    border: 1px solid #174c3c;
+    padding: 12px 30px;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+
+/*footer */
+  .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+  /* Footer ke har column ki width */
+  .footer div {
+    width: 30%;
+  }
+
+  /* Footer headings ka font */
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  /* Footer links */
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  /* Mouse link par le jaane par uska rang */
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  /* Footer ki neeche wali copyright strip */
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/style&gt;
+ &lt;header class=&quot;page-head&quot;&gt;
+    &lt;h1&gt;ROOMS&lt;/h1&gt;
+    &lt;p&gt;Light,air,and comfort-these three things i must always have in a room&lt;/p&gt;
+  &lt;/header&gt;
+&lt;section class=&quot;rooms&quot; id=&quot;rooms&quot;&gt;
+
+  &lt;div class=&quot;room&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=900&quot; alt=&quot;Luxury suite&quot;&gt;
+    &lt;div class=&quot;room-info&quot;&gt;
+      &lt;h2&gt;GLASS TREE HOUSE SUITE&lt;/h2&gt;
+      &lt;p&gt;Spacious suite | Queen beds | Private terrace pool | Lake view&lt;/p&gt;
+      &lt;a href=&quot;#divas-treeroom&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;room&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&quot; alt=&quot;Private resort suite&quot;&gt;
+    &lt;div class=&quot;room-info&quot;&gt;
+      &lt;h2&gt;OWNERS SUITE&lt;/h2&gt;
+      &lt;p&gt;King bed | Private pool | Garden view | Luxury bathroom&lt;/p&gt;
+      &lt;a href=&quot;#divas-ownersroom&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;room&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1590490360182-c33d57733427?w=900&quot; alt=&quot;Premium deluxe room&quot;&gt;
+    &lt;div class=&quot;room-info&quot;&gt;
+      &lt;h2&gt;PREMIUM DELUXE ROOM&lt;/h2&gt;
+      &lt;p&gt;Queen bed | Lake view | Private veranda | Room for four guests&lt;/p&gt;
+      &lt;a href=&quot;#divas-premiumroom&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;room&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=900&quot; alt=&quot;Garden view room&quot;&gt;
+    &lt;div class=&quot;room-info&quot;&gt;
+      &lt;h2&gt;GARDEN VIEW ROOM&lt;/h2&gt;
+      &lt;p&gt;Queen bed | Garden view | Private balcony | Comfortable stay&lt;/p&gt;
+      &lt;a href=&quot;#divas-gardenroom&quot; target=&quot;_top&quot;&gt;MORE INFO&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/section&gt;
+&lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa&lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+    
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-spa" data-page="divas-spa"><iframe title="Spa" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Spa&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+
+&lt;style&gt;
+   .page-head {
+      background: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    .page-head h1 {
+      font-family: Georgia, serif;
+      font-size: 40px;
+    }
+  .spa {
+    background: #f3ead8;
+    padding: 30px;
+    text-align: center;
+    color: #174c3c;
+  }
+
+  .spa-photos {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .spa-photos img {
+    width: 33%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .spa h2 {
+    font: 38px Georgia, serif;
+    margin-top: 45px;
+  }
+
+  .spa p {
+    max-width: 1000px;
+    margin: 20px auto;
+    color: #625b50;
+    line-height: 1.8;
+  }
+
+  .spa-time {
+    background: #fffdf8;
+    padding: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+  }
+
+  .spa a {
+    display: inline-block;
+    color: #174c3c;
+    border: 1px solid #174c3c;
+    padding: 12px 30px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+
+  .footer div {
+    width: 30%;
+  }
+
+  
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+  &lt;/style&gt;
+
+
+
+&lt;/style&gt;
+ &lt;header class=&quot;page-head&quot;&gt;
+    &lt;h1&gt;SPA&lt;/h1&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/header&gt;
+
+&lt;section class=&quot;spa&quot; id=&quot;spa&quot;&gt;
+
+
+
+  &lt;div class=&quot;spa-photos&quot;&gt;
+  &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAs4Vi7rml8Uoa9rBdeD0Wg028LCh0EmEm1W44BLA3MBm8dq5JLc6J6uo&amp;s=10&quot; alt=&quot;Spa interior&quot;&gt;
+  &lt;img src=&quot;https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&quot; alt=&quot;Spa towels and treatment products&quot;&gt;
+  &lt;img src=&quot;https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=900&quot; alt=&quot;Relaxing spa room&quot;&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+  &lt;h2&gt;DIVA&#39;S: THERAPIES THAT STEADY THE SOUL &amp;amp; HEAL THE BODY&lt;/h2&gt;
+
+  &lt;p&gt;
+    Take time to relax at Diva&#39;s Resort &amp;amp; Spa. Enjoy soothing treatments,
+    peaceful surroundings, and a calm space to refresh your body and mind.
+  &lt;/p&gt;
+
+  &lt;div class=&quot;spa-time&quot;&gt;
+    &lt;strong&gt;Timing:&lt;/strong&gt; 11:00 AM to 8:00 PM
+  &lt;/div&gt;
+
+  &lt;a href=&quot;#divas-spabooking&quot; target=&quot;_top&quot;&gt;BOOK NOW&lt;/a&gt;
+&lt;/section&gt;
+  &lt;footer&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+
+    &lt;div&gt;
+      &lt;h2&gt;DIVA&#39;S&lt;/h2&gt;
+      &lt;p&gt;RESORT &amp;amp; SPA&lt;/p&gt;
+      &lt;h3&gt;ADDRESS&lt;/h3&gt;
+      &lt;p&gt;Near Indore, Madhya Pradesh, India&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;QUICK LINKS&lt;/h3&gt;
+      &lt;a href=&quot;#divas-index&quot; target=&quot;_top&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#divas-rooms&quot; target=&quot;_top&quot;&gt;Rooms&lt;/a&gt;
+      &lt;a href=&quot;#divas-dining&quot; target=&quot;_top&quot;&gt;Dining&lt;/a&gt;
+      &lt;a href=&quot;#divas-food&quot; target=&quot;_top&quot;&gt;Food &amp; Drink&lt;/a&gt;
+      &lt;a href=&quot;#divas-spa&quot; target=&quot;_top&quot;&gt;Spa&lt;/a&gt;
+      &lt;a href=&quot;#divas-gallery&quot; target=&quot;_top&quot;&gt;Gallery&lt;/a&gt;
+      &lt;a href=&quot;#divas-contact&quot; target=&quot;_top&quot;&gt;Contact Us&lt;/a&gt;
+
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;h3&gt;CONTACT US&lt;/h3&gt;
+      &lt;p&gt;Email: hello@divasresort.example&lt;/p&gt;
+      &lt;p&gt;Phone: +91 98765 43210&lt;/p&gt;
+      &lt;h3&gt;GET IN TOUCH&lt;/h3&gt;
+      &lt;a href=&quot;#&quot;&gt;Instagram&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;footer-bottom&quot;&gt;
+    &lt;p&gt;&#169; 2026 Diva&#39;s Resort &amp;amp; Spa&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-spabooking" data-page="divas-spabooking"><iframe title="Book Spa" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Book Spa&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+
+&lt;style&gt;
+  .spa-booking {
+    background: #f3ead8;
+    color: #174c3c;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .spa-booking input,
+  .spa-booking select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .spa-booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+&lt;/style&gt;
+
+&lt;section class=&quot;spa-booking&quot; id=&quot;spa-booking&quot;&gt;
+  &lt;h2&gt;BOOK A SPA APPOINTMENT&lt;/h2&gt;
+
+  &lt;form&gt;
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Enter your name&quot;&gt;
+
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Enter your email&quot;&gt;
+
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot;&gt;
+
+    &lt;label&gt;Spa service&lt;/label&gt;
+    &lt;select&gt;
+      &lt;option&gt;Select a spa service&lt;/option&gt;
+      &lt;option&gt;Massage&lt;/option&gt;
+      &lt;option&gt;Facial treatment&lt;/option&gt;
+      &lt;option&gt;Other treatment&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Appointment date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Appointment time&lt;/label&gt;
+    &lt;input type=&quot;time&quot;&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;REQUEST A SPA APPOINTMENT&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/section&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-staybooking" data-page="divas-staybooking"><iframe title="Book Your Stay" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Book Your Stay&lt;/title&gt;&lt;/head&gt;&lt;body&gt;staybooking.html
+
+
+&lt;style&gt;
+  .stay-booking {
+    background: #f3ead8;
+    color: #174c3c;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .stay-booking input,
+  .stay-booking select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .stay-booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+&lt;/style&gt;
+
+&lt;section class=&quot;stay-booking&quot; id=&quot;stay-booking&quot;&gt;
+  &lt;h2&gt;BOOK YOUR STAY&lt;/h2&gt;
+
+  &lt;form&gt;
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Enter your name&quot;&gt;
+
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Enter your email&quot;&gt;
+
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot;&gt;
+
+    &lt;label&gt;Room&lt;/label&gt;
+    &lt;select&gt;
+      &lt;option&gt;Select a room&lt;/option&gt;
+      &lt;option&gt;Glass Tree House Suite&lt;/option&gt;
+      &lt;option&gt;Owners Suite&lt;/option&gt;
+      &lt;option&gt;Premium Deluxe Room&lt;/option&gt;
+      &lt;option&gt;Garden View Room&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Check-in date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Check-out date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Number of guests&lt;/label&gt;
+    &lt;input type=&quot;number&quot; min=&quot;1&quot; placeholder=&quot;Enter number of guests&quot;&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;REQUEST A ROOM&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/section&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+<section class="page-frame" id="divas-treeroom" data-page="divas-treeroom"><iframe title="Glass Tree House Suite" loading="eager" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;base target=&quot;_top&quot;&gt;&lt;title&gt;Glass Tree House Suite&lt;/title&gt;&lt;/head&gt;&lt;body&gt;staybooking.html
+
+
+&lt;style&gt;
+  .stay-booking {
+    background: #f3ead8;
+    color: #174c3c;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .stay-booking input,
+  .stay-booking select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .stay-booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+&lt;/style&gt;
+
+&lt;section class=&quot;stay-booking&quot; id=&quot;stay-booking&quot;&gt;
+  &lt;h2&gt;BOOK YOUR STAY&lt;/h2&gt;
+
+  &lt;form&gt;
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Enter your name&quot;&gt;
+
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Enter your email&quot;&gt;
+
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; placeholder=&quot;Enter your phone number&quot;&gt;
+
+    &lt;label&gt;Room&lt;/label&gt;
+    &lt;select&gt;
+      &lt;option&gt;Select a room&lt;/option&gt;
+      &lt;option&gt;Glass Tree House Suite&lt;/option&gt;
+      &lt;option&gt;Owners Suite&lt;/option&gt;
+      &lt;option&gt;Premium Deluxe Room&lt;/option&gt;
+      &lt;option&gt;Garden View Room&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;Check-in date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Check-out date&lt;/label&gt;
+    &lt;input type=&quot;date&quot;&gt;
+
+    &lt;label&gt;Number of guests&lt;/label&gt;
+    &lt;input type=&quot;number&quot; min=&quot;1&quot; placeholder=&quot;Enter number of guests&quot;&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;REQUEST A ROOM&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/section&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></section>
+  </main>
+  <footer class="site-footer">Diva's Resort &amp; Spa · <a href="#divas-contact">Contact us</a> · <a href="#divas-staybooking">Book your stay</a></footer>
+  <script>
+    (function () {
+      var pages = Array.prototype.slice.call(document.querySelectorAll('.page-frame'));
+      function showPage() {
+        var requested = (window.location.hash || '#divas-index').slice(1);
+        var active = pages.find(function (page) { return page.id === requested; }) || document.getElementById('divas-index');
+        pages.forEach(function (page) {
+          var visible = page === active;
+          page.classList.toggle('active', visible);
+          page.setAttribute('aria-hidden', visible ? 'false' : 'true');
+        });
+        document.title = "Diva's Resort & Spa — " + (active.querySelector('iframe').title || 'Resort');
+        window.scrollTo(0, 0);
+      }
+      function fitFrame(frame) {
+        try {
+          var doc = frame.contentDocument;
+          if (!doc) return;
+          var resize = function () {
+            frame.style.height = Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0, 500) + 'px';
+          };
+          resize();
+          if (window.ResizeObserver) new ResizeObserver(resize).observe(doc.documentElement);
+          Array.prototype.forEach.call(doc.images, function (image) {
+            if (!image.complete) image.addEventListener('load', resize, { once: true });
+          });
+          window.addEventListener('resize', resize);
+        } catch (error) {
+          console.error('Could not resize embedded page:', error);
+        }
+      }
+      document.querySelectorAll('.page-frame iframe').forEach(function (frame) {
+        frame.addEventListener('load', function () { fitFrame(frame); });
+      });
+      window.addEventListener('hashchange', showPage);
+      showPage();
+    }());
+  </script>
+</body>
+</html>
