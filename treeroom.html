@@ -1,0 +1,62 @@
+staybooking.html
+
+
+<style>
+  .stay-booking {
+    background: #f3ead8;
+    color: #174c3c;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .stay-booking input,
+  .stay-booking select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .stay-booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+</style>
+
+<section class="stay-booking" id="stay-booking">
+  <h2>BOOK YOUR STAY</h2>
+
+  <form>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Phone</label>
+    <input type="tel" placeholder="Enter your phone number">
+
+    <label>Room</label>
+    <select>
+      <option>Select a room</option>
+      <option>Glass Tree House Suite</option>
+      <option>Owners Suite</option>
+      <option>Premium Deluxe Room</option>
+      <option>Garden View Room</option>
+    </select>
+
+    <label>Check-in date</label>
+    <input type="date">
+
+    <label>Check-out date</label>
+    <input type="date">
+
+    <label>Number of guests</label>
+    <input type="number" min="1" placeholder="Enter number of guests">
+
+    <button type="submit">REQUEST A ROOM</button>
+  </form>
+</section>

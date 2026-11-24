@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diva's Food &amp; Drinks</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+    }
+
+  
+    .page-head {
+      background: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    .page-head h1 {
+      font-family: Georgia, serif;
+      font-size: 40px;
+    }
+
+    /* Teen cards ko arrange karta hai */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 35px 15px;
+    }
+
+    /* flip size */
+    .card {
+      width: 400px;
+      height: 350px;
+      perspective: 1000px;
+    }
+
+    /* Card ke dono sides ko ghumata hai */
+    .inside {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transition: 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .inside {
+      transform: rotateY(180deg);
+    }
+
+  
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      backface-visibility: hidden;
+    }
+
+    
+    .front {
+      background: #fffdf8;
+      text-align: center;
+    }
+
+    .front img {
+      width: 100%;
+      height: 290px;
+      object-fit: cover;
+    }
+
+    .front h3 {
+      font-family: Georgia, serif;
+    }
+
+    
+    .back {
+      background: #174c3c;
+      color: white;
+      transform: rotateY(180deg);
+      padding: 25px;
+      border: 6px solid #fffdf8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .back h3 {
+      color: #c49a52;
+      font-family: Georgia, serif;
+    }
+
+    .back p {
+      line-height: 1.6;
+    }
+
+    /* Order button  */
+    .back a {
+      margin-top: auto;
+      margin-bottom: 10px;
+      background: #c49a52;
+      color: #174c3c;
+      padding: 12px 20px;
+      text-decoration: none;
+    }
+
+  .footer {
+    background: #fffdf8;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .footer div {
+    width: 30%;
+  }
+
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+
+  <header class="page-head">
+    <h1>FOOD &amp; DRINKS</h1>
+    <p>Enjoy delicious food and refreshing drinks at Diva's Resort.</p>
+  </header>
+
+  <div class="cards">
+
+
+    <div class="card">
+      <div class="inside">
+        <div class="front">
+          <img src="https://wpcontents.weddingpark.net/image/hall/1fc7/thumb640x480/GGJaHXa48xaLSJ54iJRRVOBodIpRUY1q.jpg?format=webp"
+               alt="Elegant gourmet dish">
+          <h3>CHEF'S SPECIAL</h3>
+        </div>
+
+        <div class="back">
+          <h3>CHEF'S SPECIAL</h3>
+          <p>
+            Enjoy a beautifully presented dish in a relaxed resort setting.
+            Ask our team about today's menu and choices.
+          </p>
+          <a href="order.html">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card">
+      <div class="inside">
+        <div class="front">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900"
+               alt="Fine dining plate">
+          <h3>FINE DINING</h3>
+        </div>
+
+        <div class="back">
+          <h3>FINE DINING</h3>
+          <p>
+            Enjoy a thoughtfully prepared meal in beautiful surroundings.
+            Contact our team for menu details.
+          </p>
+          <a href="order.html">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card">
+      <div class="inside">
+        <div class="front">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=900"
+               alt="Freshly prepared food">
+          <h3>SIGNATURE DISH</h3>
+        </div>
+
+        <div class="back">
+          <h3>SIGNATURE DISH</h3>
+          <p>
+            Make your meal memorable with one of our featured dishes.
+            Ask us about available options.
+          </p>
+          <a href="order.html">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<footer>
+  <div class="footer">
+    <div>
+      <h2>DIVA'S</h2>
+      <p>RESORT &amp; SPA</p>
+      <h3>ADDRESS</h3>
+      <p>Near Indore, Madhya Pradesh, India</p>
+    </div>
+
+    <div>
+      <h3>QUICK LINKS</h3>
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="dining.html">Dining</a>
+      <a href="food.html">Food & Drink</a>
+      <a href="spa.html">Spa</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div>
+      <h3>CONTACT US</h3>
+      <p>Email: hello@divasresort.example</p>
+      <p>Phone: +91 98765 43210</p>
+      <h3>GET IN TOUCH</h3>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Diva's Resort &amp; Spa</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

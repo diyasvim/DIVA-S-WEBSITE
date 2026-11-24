@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diva's Resort &amp; Spa</title>
+
+  <style>
+    body {
+      margin:0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #174c3c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hotel-name {
+      color: #d568ce;
+      font-family: Georgia, serif;
+      font-size: 38px;
+      margin: 0;
+    }
+
+    .hotel-subtitle {
+      font-size: 13px;
+      margin: 5px 0 20px;
+    }
+
+    nav {
+      padding: 15px;
+      background-color:#FFF0FA  ;
+    }
+
+    nav a {
+      color:#C2188B;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .book-button {
+      position:absolute;
+      right:20px;
+      top: 20px;
+      background-color: #F6C85F;
+      color: #4A0A52;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+    .image-slider {
+      height: 450px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-slider img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      position: absolute;
+
+      opacity: 0;
+      animation: change-image 12s infinite;
+      border-top: 5px solid  white;
+    }
+
+    .image-slider img:nth-child(1) { animation-delay: 0s; }
+    .image-slider img:nth-child(2) { animation-delay: 4s; }
+    .image-slider img:nth-child(3) { animation-delay: 8s; }
+
+    @keyframes change-image {
+      0% { opacity: 0; }
+      8% { opacity: 1; }
+      30% { opacity: 1; }
+      38% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    
+    .section {
+      background: #f3ead8;
+      padding: 35px 20px;
+      text-align: center;
+      color: #174c3c;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fffdf8;
+      width: 30%;
+      padding-bottom: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      font-family: Georgia, serif;
+    }
+
+    .card p {
+      color: #625b50;
+      line-height: 1.6;
+    }
+
+    
+    .about {
+      background: #f3ead8;
+      padding: 55px 20px;
+      text-align: center;
+        border-top: 20px solid white;
+
+    }
+
+    .about h2 {
+      color: #173f35;
+      font-family: Georgia, serif;
+      font-size: 32px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: 15px auto;
+      line-height: 1.8;
+      color: #51463a;
+    }
+
+
+  body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+  }
+
+
+
+  .footer {
+    background: #f3ead8;;
+    color: #174c3c;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-top: 20px solid white;
+  }
+
+
+  .footer div {
+    width: 30%;
+  }
+
+  
+  .footer h3 {
+    font-family: Georgia, serif;
+  }
+
+  
+  .footer a {
+    display: block;
+    color: #174c3c;
+    margin: 12px 0;
+    text-decoration: none;
+  }
+
+  
+  .footer a:hover {
+    color: #c49a52;
+  }
+
+  
+  .footer-bottom {
+    background: #fffdf8;
+    color: #174c3c;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class="book-button" href="staybooking.html">Book Now</a>
+
+    <h1 class="hotel-name">DIVA'S</h1>
+    <p class="hotel-subtitle">RESORT &amp; SPA</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+       <a href="dining.html">Dining</a>
+      <a href="food.html">Food & Drink</a>
+      <a href="spa.html">Spa</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    
+    </nav>
+  </header>
+
+  
+  <section class="image-slider" id="home">
+    <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=85" alt="Resort swimming pool">
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85" alt="Tropical resort">
+    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=85" alt="Hotel exterior">
+  </section>
+
+  
+  <section class="section">
+    <h1>THINGS TO DO</h1>
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=800" alt="Kayaking on a lake">
+        <h2>PAWNA LAKE</h2>
+        <p>A serene reservoir | 2 km</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7?w=800" alt="Paragliding">
+        <h2>PARAGLIDING</h2>
+        <p>An aerial escape | 3 km</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Outdoor adventure">
+        <h2>WATER ADVENTURE</h2>
+        <p>Outdoor thrills | 4 km</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section">
+    <h1>WHAT OUR GUESTS SAY</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h2>A LOVELY CELEBRATION</h2>
+        <p>“We had a wonderful stay and enjoyed the peaceful surroundings.”</p>
+        <p>⭐⭐⭐⭐⭐</p>
+      </div>
+
+      <div class="card">
+        <h2>A PEACEFUL ESCAPE</h2>
+        <p>“The rooms were comfortable and the team was very welcoming.”</p>
+        <p>⭐⭐⭐⭐⭐</p>
+      </div>
+
+      <div class="card">
+        <h2>A MEMORABLE STAY</h2>
+        <p>“Beautiful views, delicious food, and a relaxing atmosphere.”</p>
+        <p>⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section">
+    <h1>STAY IN &amp; STILL HAVE THE TIME OF YOUR LIFE</h1>
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKyUnG8lvWjXChqfQ16tjy5ERT-P-oGJA3yHyKiZwKw&s=10" alt="Outdoor resort game">
+        <h2>GAMES</h2>
+        <p>Enjoy fun activities with friends and family.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800" alt="Hotel lounge">
+        <h2>RELAX</h2>
+        <p>Find a quiet spot and enjoy some peaceful time.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800" alt="Spa room">
+        <h2>SPA</h2>
+        <p>Unwind with a calming spa experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Diva's, a Luxury Escape Near Indore</h2>
+
+    <p>
+      Welcome to Diva's Resort &amp; Spa, a peaceful getaway near Indore.
+      Enjoy comfortable rooms, delicious food, beautiful surroundings, and
+      warm hospitality during your stay.
+    </p>
+
+    <p>
+      Relax by the pool, celebrate a special occasion, or enjoy a soothing
+      spa experience. We make every visit comfortable, refreshing, and special.
+    </p>
+  </section>
+
+  <footer>
+  <div class="footer">
+
+    <div>
+      <h2>DIVA'S</h2>
+      <p>RESORT &amp; SPA</p>
+      <h3>ADDRESS</h3>
+      <p>Near Indore, Madhya Pradesh, India</p>
+    </div>
+
+    <div>
+      <h3>QUICK LINKS</h3>
+      <a href="index.html#home">Home</a>
+      <a href="rooms.html#rooms">Rooms</a>
+      <a href="dining.html#dining">Dining</a>
+      <a href="slider.html">Food & Drink</a>
+      <a href="spa.html#spa">Spa </a>
+      <a href="gallery.html#gallery">Gallery</a>
+      <a href="contact.html#contact">Contact Us</a>
+
+    </div>
+
+    <div>
+      <h3>CONTACT US</h3>
+      <p>Email: hello@divasresort.example</p>
+      <p>Phone: +91 98765 43210</p>
+      <h3>GET IN TOUCH</h3>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Diva's Resort &amp; Spa</p>
+  </div>
+</footer>
+
+</body>
+</html>

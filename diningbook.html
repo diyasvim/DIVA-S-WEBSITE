@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Dining</title>
+
+  <style>
+    body {
+      background: #f3ead8;
+      color: #174c3c;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    form {
+      background: #fffdf8;
+      max-width: 500px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background: #174c3c;
+      color: white;
+      padding: 12px 25px;
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h1>BOOK DINING</h1>
+
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name" required>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" required>
+
+    <label>Phone</label>
+    <input type="tel" placeholder="Enter your phone number" required>
+
+    <label>Choose dining area</label>
+    <select required>
+      <option value="">Select dining area</option>
+      <option>Arches</option>
+      <option>Private Dining Area</option>
+      <option>Family Dining</option>
+      <option>Friends Dining</option>
+    </select>
+
+    <label>Date</label>
+    <input type="date" required>
+
+    <label>Time</label>
+    <input type="time" required>
+
+    <label>Number of guests</label>
+    <input type="number" min="1" placeholder="Enter number of guests" required>
+
+    <label>Special request</label>
+    <textarea placeholder="Write your request"></textarea>
+
+    <button type="submit">REQUEST A TABLE</button>
+  </form>
+</body>
+</html>

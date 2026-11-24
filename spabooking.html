@@ -1,0 +1,57 @@
+
+
+<style>
+  .spa-booking {
+    background: #f3ead8;
+    color: #174c3c;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+
+  .spa-booking input,
+  .spa-booking select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .spa-booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+</style>
+
+<section class="spa-booking" id="spa-booking">
+  <h2>BOOK A SPA APPOINTMENT</h2>
+
+  <form>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Phone</label>
+    <input type="tel" placeholder="Enter your phone number">
+
+    <label>Spa service</label>
+    <select>
+      <option>Select a spa service</option>
+      <option>Massage</option>
+      <option>Facial treatment</option>
+      <option>Other treatment</option>
+    </select>
+
+    <label>Appointment date</label>
+    <input type="date">
+
+    <label>Appointment time</label>
+    <input type="time">
+
+    <button type="submit">REQUEST A SPA APPOINTMENT</button>
+  </form>
+</section>

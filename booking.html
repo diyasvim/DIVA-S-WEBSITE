@@ -1,0 +1,73 @@
+
+
+<style>
+  .booking {
+    background: #f3ead8;
+    padding: 25px;
+    max-width: 600px;
+    margin: 30px auto;
+    color: #174c3c;
+  }
+
+  .booking input,
+  .booking select,
+  .booking textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+  }
+
+  .booking button {
+    padding: 12px 25px;
+    color: white;
+    background: #174c3c;
+    border: 0;
+  }
+</style>
+
+<section class="booking" id="booking">
+  <h2>BOOK YOUR STAY &amp; SPA</h2>
+
+  <form>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Phone</label>
+    <input type="tel" placeholder="Enter your phone number">
+
+    <label>Room</label>
+    <select>
+      <option>Select a room</option>
+      <option>Glass Tree House Suite</option>
+      <option>Owners Suite</option>
+      <option>Premium Deluxe Room</option>
+      <option>Garden View Room</option>
+    </select>
+
+    <label>Check-in date</label>
+    <input type="date">
+
+    <label>Check-out date</label>
+    <input type="date">
+
+    <label>Spa service</label>
+    <select>
+      <option>No spa service</option>
+      <option>Spa treatment</option>
+      <option>Facial treatment</option>
+      <option>Massage</option>
+    </select>
+
+    <label>Spa date and time</label>
+    <input type="datetime-local">
+
+    <label>Special requests</label>
+    <textarea placeholder="Write your request"></textarea>
+
+    <button type="submit">SEND BOOKING REQUEST</button>
+  </form>
+</section>

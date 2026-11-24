@@ -1,0 +1,73 @@
+contact.html
+
+<style>
+  section {
+    background: #f3ead8;
+    padding: 40px 5%;
+    color: #174c3c;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: Georgia, serif;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 18px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  button {
+    margin: 25px;
+    padding: 14px 45px;
+    color: #174c3c;
+    background: #f3ead8;
+    border: 1px solid #174c3c;
+  }
+
+  .details {
+    background: #fffdf8;
+    padding: 20px;
+  }
+</style>
+
+<section id="contact">
+  <h2>CONTACT US</h2>
+
+  <form>
+    <h2>TELL US HOW WE CAN HELP</h2>
+
+    <label for="name">Name*</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+
+    <label for="email">Email*</label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+
+    <label for="phone">Phone*</label>
+    <input id="phone" type="tel" placeholder="Enter your phone number" required>
+
+    <label for="query">Query</label>
+    <textarea id="query" placeholder="Enter your query"></textarea>
+
+    <button type="submit">SUBMIT</button>
+  </form>
+
+  <div class="details">
+    <p><strong>Address:</strong> Near Indore, Madhya Pradesh, India</p>
+    <p><strong>Email:</strong> hello@divasresort.example</p>
+    <p><strong>Reservation Number:</strong> +91 98765 43210</p>
+    <p><strong>WhatsApp:</strong> +91 98765 43210</p>
+  </div>
+</section>
